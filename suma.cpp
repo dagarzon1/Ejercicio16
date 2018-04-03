@@ -3,9 +3,16 @@
 using std::cout;
 using std::endl;
 
+int suma(n);
 int main()
 {
 int n=100;
-cout << "La suma es:" << n*(n+1)/2 << endl;
+int suma=suma(n);
+cout << "La suma es: " << suma << endl;
 }
+int suma(n)
+{
+	return n*(n+1)/2;
+}
+
 
