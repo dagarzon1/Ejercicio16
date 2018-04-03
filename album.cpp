@@ -51,7 +51,7 @@ Album::Album(int n){
 
 int main(){
   srand(time(0));
-  Album A(660);
+  Album A(670);
   for(int i=0;i<160;i++){
     A.CompraSobre(5);
     A.Status();
